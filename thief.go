@@ -29,8 +29,8 @@ func options() *FlagOptions {
 	flag.Parse()
 	if *help {
 		println("Save cert: sigthief.exe -i MSbuild.exe -s -o MSbuild.cert")
-		println("Add cert from certfile: sigthief.exe -i evil.exe -o evil-sign.exe -c MSbuild.cert")
-		println("You can also use exe to add cert: sigthief.exe -i evil.exe -o evil-sign.exe -c MSbuild.exe")
+		println("Add cert from certfile: sigthief.exe -a -i evil.exe -o evil-sign.exe -c MSbuild.cert")
+		println("You can also use exe to add cert: sigthief.exe -a -i evil.exe -o evil-sign.exe -c MSbuild.exe")
 	}
 	signfromdisk := false
 	signfromexe := false

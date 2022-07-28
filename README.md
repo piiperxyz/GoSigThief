@@ -22,7 +22,7 @@ Usage of sigthief.exe:
 ```
 sigthief.exe -show
 Save cert: sigthief.exe -i MSbuild.exe -s -o MSbuild.cert
-Add cert from certfile: sigthief.exe -i evil.exe -o evil-sign.exe -c MSbuild.cert
-You can also use exe to add cert: sigthief.exe -i evil.exe -o evil-sign.exe -c MSbuild.exe
+Add cert from certfile: sigthief.exe -a -i evil.exe -o evil-sign.exe -c MSbuild.cert
+You can also use exe to add cert: sigthief.exe -a -i evil.exe -o evil-sign.exe -c MSbuild.exe
 ```
 
